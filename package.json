@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/tosiaki/improvement-discord-IRC#readme",
   "dependencies": {
-    "discord-irc": "^2.7.0",
+    "discord-irc": "^2.7.0"
+  },
+  "devDependencies": {
     "dotenv": "^7.0.0"
   }
 }
