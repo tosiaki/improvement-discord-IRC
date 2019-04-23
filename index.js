@@ -1,6 +1,8 @@
-require('dotenv').config();
+discordIRC = require('discord-irc').default;
 
-import discordIRC from 'discord-irc';
-const data = require('config.js');
-
+var env = process.env.NODE_ENV || 'development';
+if(env == 'development') {
+	require('dotenv').config();
+}
+const data = require('./config');
 discordIRC(data);
