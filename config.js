@@ -1,4 +1,4 @@
-exports.config = [
+module.exports = [
 	{
 		"nickname": "Improvement-Discord",
 		"server": "irc.rizon.net",
