@@ -1,0 +1,22 @@
+{
+  "name": "seeking-improvement-discord-irc",
+  "version": "1.0.0",
+  "description": "Seeking Improvement Discord and IRC bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tosiaki/improvement-discord-IRC.git"
+  },
+  "author": "Tosiaki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tosiaki/improvement-discord-IRC/issues"
+  },
+  "homepage": "https://github.com/tosiaki/improvement-discord-IRC#readme",
+  "dependencies": {
+    "discord-irc": "^2.7.0"
+  }
+}
