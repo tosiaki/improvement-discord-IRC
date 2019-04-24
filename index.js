@@ -1,3 +1,5 @@
+require('newrelic');
+
 discordIRC = require('discord-irc').default;
 
 var env = process.env.NODE_ENV || 'development';
